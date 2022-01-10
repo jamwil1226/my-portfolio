@@ -51,3 +51,72 @@
 .a-desc {
     font-size: 12px;
 }
+
+@media screen and (max-width: 480px) {
+    .a {
+    flex-direction: column;
+    text-align: center;
+    }
+
+    .a-left {
+        width: 100%;
+    }
+
+    .a-card {
+        height: 30vh;
+    }
+
+    .a-card.bg {
+        display: none;
+    }
+
+    .a-right {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .a {
+    flex-direction: column;
+    text-align: center;
+    }
+
+    .a-left {
+        width: 100%;
+    }
+
+    .a-card {
+        height: 30vh;
+    }
+
+    .a-card.bg {
+        display: none;
+    }
+
+    .a-right {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .a {
+    flex-direction: column;
+    text-align: center;
+    }
+
+    .a-left {
+        width: 100%;
+    }
+
+    .a-card {
+        height: 30vh;
+    }
+
+    .a-card.bg {
+        display: none;
+    }
+
+    .a-right {
+        padding: 20px;
+    }
+}

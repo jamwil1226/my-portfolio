@@ -84,3 +84,54 @@
     top: 0;
     background-color: aqua;
 }
+
+@media screen and (max-width: 480px) {
+    .i {
+    flex-direction: column;
+    height: 100%;
+    }
+
+    .i-right {
+        display: none;
+    }
+
+    .i-desc {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .i {
+    flex-direction: column;
+    height: 100%;
+    }
+
+    .i-right {
+        display: none;
+    }
+
+    .i-desc {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .i {
+    flex-direction: column;
+    height: 100%;
+    }
+
+    .i-right {
+        display: none;
+    }
+
+    .i-desc {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+}

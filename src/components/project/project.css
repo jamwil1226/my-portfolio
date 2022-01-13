@@ -1,34 +1,39 @@
-.p {
-    width: 300px;
-    height: 40vh;
-    margin: 20px 10px;
-    border: 2px solid rgb(243, 242, 242);
-    border-radius: 10px 10px 0px 0px;
-    overflow: hidden;
+.portfolio-wrapper {
+    padding: 3rem 0;
 }
 
-.p-browser {
-    height: 20px;
-    background-color: rgb(243, 242, 242);
-    display: flex;
-    align-items: center;
+.portfolio-image {
+    height: 200px;
+    width: 400px;
+    border: 1px solid black;
+    padding: 0 0.5rem;
 }
 
-.p-circle {
-    width: 6px;
-    height: 6px;
-    margin: 3px;
-    background-color: white;
-    border-radius: 50%;
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    background-color: aqua;
+    margin-bottom: 10px;
+    padding: 20px;
 }
 
-.p-img {
-    width: auto;
+.image-box-wrapper {
+    margin: 20px;
+    margin-bottom: 40px;
 }
 
-@media screen and (max-width: 480px) {
-    .p {
-    width: 40%;
-    height: 20vh;
-    }
+.image-box-wrapper p {
+    background-color: black;
+    color: aqua;
+    width: 400px;
+    padding: 5px;
+}
+
+.image-box-wrapper button {
+    background-color: black;
+    color: aqua;
+    margin-top: 10px;
+    border-radius: 30px;
+    font-size: 10px;
+
 }

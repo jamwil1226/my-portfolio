@@ -7,14 +7,6 @@
     display: flex;
 }
 
-.c-left {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: aqua;
-}
 
 .c-right {
     flex: 1;
@@ -25,17 +17,28 @@
     margin: 10px;
 }
 
-.c-title {
-    font-size: 25px;
-    width: 80%;
-    font-weight: 300px;
+h1 {
+    background-color: black;
+    color: aqua;
+    text-align: center;
+}
+
+.c-info {
+    color: black; 
+    background-color: aqua;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .c-info-item {
     display: flex;
     align-items: center;
+    text-align: center;
+    justify-content: center;
     margin: 50px 0px;
-}
+} 
 
 .c-icon {
     width: 30px;
@@ -43,12 +46,17 @@
     margin-right: 20px;
 }
 
+.open {
+    font-weight: bold;
+}
+
 .c-desc {
-    font-weight: 200px;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 form {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 input {
@@ -56,7 +64,7 @@ input {
     height: 50px;
     border: none;
     border-bottom: 1px solid black;
-    margin: 10px 0px;
+    margin: 5px 10px;
     font-size: 14px;
     padding-left: 10px;
 
@@ -71,143 +79,10 @@ textarea {
 }
 
 button {
-    border: none;
+    border-radius: 30px;
     padding: 15px;
-    background-color: aqua;
-    color: black;
-    font-weight: 500;
+    background-color: black;
+    color: aqua;
+    font-size: 10px;
     cursor: pointer;
 }
-
-@media screen and (max-width: 480px) {
-
-    .c-wrapper {
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
-    padding-bottom: 50px;
-    }
-
-
-    .c-title {
-        font-size: 30px;
-    }
-
-    .c-info-item {
-        margin: 20px 0px;
-        width: 100%;
-    }
-
-    .c-desc {
-        display: none;
-    }
-    
-    .c-right {
-        width: 100%;
-        height: 100%;
-    }
-
-    form {
-        margin-top: 0px;
-        display: flex;
-        flex-wrap: wrap;
-
-    }
-
-    input {
-        width: 35%;
-        height: 40px;
-        margin: 10px;
-        margin-left: 0;
-    }
-
-    button {
-        margin-top: 10px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-
-    .c-wrapper {
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
-    }
-
-
-    .c-title {
-        font-size: 30px;
-        text-align: center;
-    }
-
-    .c-info-item {
-        margin: 20px 0px;
-        width: 100%;
-        text-align: center;
-    }
-
-    .c-desc {
-        display: none;
-    }
-
-    /* form {
-        margin-top: 0px;
-        margin-bottom: 0;
-        display: flex;
-        flex-wrap: wrap;
-
-    } */
-
-    input {
-        width: 35%;
-        height: 40px;
-        margin: 10px;
-        margin-left: 0;
-    }
-
-    button {
-        margin-top: 10px;
-    }
-}
-
-@media screen and (max-width: 12000px) {
-    .c-wrapper {
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
-    padding-bottom: 50px;
-    }
-
-
-    .c-title {
-        font-size: 30px;
-    }
-
-    .c-info-item {
-        margin: 20px 0px;
-        width: 100%;
-    }
-
-    .c-desc {
-        display: none;
-    }
-
-    form {
-        margin-top: 0px;
-        display: flex;
-        flex-wrap: wrap;
-
-    }
-
-    input {
-        width: 35%;
-        height: 40px;
-        margin: 10px;
-        margin-left: 0;
-    }
-
-    button {
-        margin-top: 10px;
-    }
-}
-

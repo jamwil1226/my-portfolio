@@ -16,7 +16,7 @@ const Project = () => {
                         <h1 className="text-uppercase text-center"> My Portfolio</h1>
                         {/* <h2 className="subtext-uppercase text-center"> Check out my latest projects!</h2> */}
                 <div className="row">
-                    <div className="col-lg">
+                    <div className="col-md-6">
                         <div className="image-box-wrapper"><p>My Plate Project</p>
                             <img className="portfolio-image" src={myPlate} alt="My Plate Project" />
                             <a href='https://vast-ridge-96690.herokuapp.com/'><button>View Website</button></a><a href='https://github.com/pfrueh1/myplate'><button>View GitHub</button></a>
@@ -30,7 +30,7 @@ const Project = () => {
                             <a href='https://jamwil1226.github.io/Jamie-Williams-Portfolio/'><button>View Website</button></a><a href='https://github.com/jamwil1226/Jamie-Williams-Portfolio'><button>View GitHub</button></a>
                         </div>
                     </div>
-                    <div className="col-lg">
+                    <div className="col-md-6">
                         <div className="image-box-wrapper"><p>Space Explorer Project</p>
                             <img className="portfolio-image" src={spaceExplorer} alt="Space Explorer Project" />
                             <a href='https://jamwil1226.github.io/space-explorer/'><button>View Website</button></a><a href='https://github.com/jamwil1226/space-explorer'><button>View GitHub</button></a>

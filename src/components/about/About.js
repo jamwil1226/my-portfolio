@@ -5,17 +5,17 @@ import AboutMe from "../../images/jamie-about-me-resized.png";
 const About = () => {
     return (
         <div className="container-fluid">
-            {/* <div className="row"> */}
-                {/* <div className="col-6"> */}
-                    <div className="a" id="about">
+            <div className="a" id="about">
+                <div className="row">
+                    <div className="col-md-6">                    
                         <div className="a-left">
                             <div className="a-card bg"></div>
                             <div className="a-card">
                             <img src={AboutMe} alt="" className="a-img" />
                         </div>
                     </div>
-                {/* </div> */}
-                {/* <div className="col-6"> */}
+                </div>
+                <div className="col-md-6">
                         <div className="a-right">
                             <h1 className="a-title">About Me</h1>
                             <p className="a-sub">
@@ -31,8 +31,8 @@ const About = () => {
                             </p>
                         </div>
                     </div>
-                {/* </div> */}
-            {/* </div> */}
+                </div>
+            </div>
         </div>
     )
 }

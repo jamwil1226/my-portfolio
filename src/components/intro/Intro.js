@@ -6,10 +6,10 @@ const Intro = () => {
     return (
         <div className="container-fluid" id="h">
             <div className="row">
-                <div className="col-6">
+                <div className="col-md-6">
                     <div className="h-left">
                         <div className="h-left-wrapper">
-                            <h2 className="h-intro">Hello World! I'm</h2>
+                            <h2 className="h-intro">&lt;Hello World!&gt; I'm</h2>
                             <h1 className="h-name">Jamie Williams</h1>
                             <div className="h-title">
                                 <div className="h-title-wrapper">
@@ -26,7 +26,7 @@ const Intro = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-6">
+                <div className="col-md-6">
                     <div className="h-right">
                         <div className="h-bg"></div>
                         <img src={Me} alt="" className="h-img" />

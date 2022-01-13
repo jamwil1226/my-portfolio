@@ -63,7 +63,7 @@ function ContactForm() {
             <div className="container-fluid" id="contact">
                 <h1>CONTACT ME</h1>
                 <div className="row">
-                <div className="col-6">
+                <div className="col-md-6">
                         <div className ="c-info">
                             <div className="c-info-item">
                                 <strong>LET'S DISCUSS YOUR PROJECT!</strong>
@@ -84,7 +84,7 @@ function ContactForm() {
                       </div> 
                     </div>                    
                 </div>
-                <div className="col-6">
+                <div className="col-md-6">
                   <div className="c-desc">
                   I would love an opportunity to answer any questions you have and tell you how I can help make your visions a reality for your business.
                   </div>

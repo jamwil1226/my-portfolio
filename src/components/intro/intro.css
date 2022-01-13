@@ -5,7 +5,7 @@
 }
 
 .h-left {
-    flex: 1;
+    /* flex: 1; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,7 +13,7 @@
 }
 
 .h-right {
-    flex: 1;
+    /* flex: 1; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,6 +32,7 @@
 .h-intro {
     font-size: 30px;
     font-weight: 300;
+    text-align: center;
 }
 
 .h-name {
@@ -71,11 +72,13 @@
     background-color: black;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .h-desc {
     font-size: 13px;
     padding: 7px;
+    text-align: center;
 }
 
 .h-img {
@@ -84,13 +87,27 @@
     position: absolute;
     border-radius: 50%;
     margin-top: 60px;
+    display: flex;
 }
 
 .h-bg {
     clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
     width: 50%;
-    height: 100%;
+    height: auto;
     position: absolute;
     top: 0;
+    bottom: 0;
     background-color: aqua;
+    display: flex;
+
+}
+
+@media (max-width: 768px){
+    .h-bg {
+        display: none;
+    }
+
+    .h-img {
+        display: none;
+    }
 }

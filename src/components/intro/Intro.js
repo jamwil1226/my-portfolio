@@ -20,9 +20,9 @@ const Intro = () => {
                                     <div className="h-title-item">Content Creator</div>
                                 </div>
                             </div>
-                            <p className="h-desc">
+                            <div className="h-desc">
                                 Combining my love for design and technology with my passion for photograpy, writing, and content creating - you can count on me for all of your business needs!
-                            </p>
+                            </div>
                         </div>
                     </div>
                 </div>
